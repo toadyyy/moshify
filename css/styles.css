@@ -161,13 +161,13 @@ a {
 .icon {
     width: 40px;
     height: 40px;
-}
-
-.icon--primary {
+  }
+  
+  .icon--primary {
     fill: var(--color-primary);
-}
-
-.icon-container {
+  }
+  
+  .icon-container {
     background: #f3f9fa;
     width: 64px;
     height: 64px;
@@ -175,7 +175,7 @@ a {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-}
+  }
 
 /* Buttons */
 
@@ -364,4 +364,22 @@ a {
     .plan__description {
         font-size: 1.7rem;
     }
+}
+
+/* Media */
+
+.media {
+    display: flex;
+}
+
+.media__title {
+    margin-top: 0;
+}
+
+.media__body {
+    margin: 0 2rem;
+}
+
+.media__image {
+    margin-top: 1rem;
 }
